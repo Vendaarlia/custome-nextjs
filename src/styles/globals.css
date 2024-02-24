@@ -201,3 +201,83 @@ li {
   transform: translate(-50%, -50%);
 }
 
+/*Dungeon/index.tsx*/
+
+.DGN {
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate(50%, 0%);
+  -webkit-transform: translate(50%, 0%);
+  -moz-transform: translate(50%, 0%);
+  -ms-transform: translate(50%, 0%);
+  -o-transform: translate(50%, 0%);
+}
+
+.ul-DGN {
+  display: flex;
+  gap: 1rem;
+}
+
+.crd-DGN {
+  display: flex;
+  justify-content: space-evenly;
+  /*width: 80%;*/
+}
+
+
+.li-DGN {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  border-radius: 100px 100px 0 0;
+  -webkit-border-radius: 100px 100px 0 0;
+  -moz-border-radius: 100px 100px 0 0;
+  -ms-border-radius: 100px 100px 0 0;
+  -o-border-radius: 100px 100px 0 0;
+  -webkit-transform: perspective(2500px);
+  -moz-transform: perspective(2500px);
+  -ms-transform: perspective(2500px);
+  -o-transform: perspective(2500px);
+}
+
+.LF {
+  background-color: #bfea88;
+  width: 200px;
+  height: 200px;
+  transform-origin: left center;
+  transition: transform 0.5s ease;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+
+.li-DGN:hover .LF {
+  transform: rotatey(-120deg);
+  -webkit-transform: rotatey(-120deg);
+  -moz-transform: rotatey(-120deg);
+  -ms-transform: rotatey(-120deg);
+  -o-transform: rotatey(-120deg);
+}
+
+.BG {
+  background: url(/images/portal.gif) no-repeat;
+  background-size: 450%;
+  background-position: 50% 40%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2.5rem;
+}
