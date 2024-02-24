@@ -1,0 +1,203 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+/*Navbar*/
+.container-navbar {
+  margin: 2rem 10%;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.wrapper-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  width: 100%;
+}
+
+.brand a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.logo-img {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.button {
+  padding: 0.4rem 1.3rem;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #bfea88;
+  border-color: #bfea88;
+  color: #000;
+}
+
+/*Footer*/
+.footer {
+  margin: 0 auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+}
+
+.ulf {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/*/index.tsx*/
+.container-home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.txt {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.txt span {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.prlxbg {
+  width: 100%;
+}
+
+.prlxbg .layer {
+  width: 90px;
+  height: 110px;
+  object-fit: cover;
+  border: 1px solid #fff;
+}
+
+.img-1 {
+  position: absolute;
+  bottom: 80%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+
+.img-2 {
+  position: absolute;
+  top: 35%;
+  right: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.img-3 {
+  position: absolute;
+  bottom: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.img-4 {
+  position: absolute;
+  top: 70%;
+  right: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.img-5 {
+  position: absolute;
+  bottom: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.img-6 {
+  position: absolute;
+  top: 60%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.img-7 {
+  position: absolute;
+  bottom: 35%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.img-8 {
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.img-9 {
+  position: absolute;
+  bottom: 60%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.img-10 {
+  position: absolute;
+  top: 60%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
