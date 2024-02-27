@@ -248,8 +248,6 @@ li {
 
 .LF {
   background-color: #bfea88;
-  width: 200px;
-  height: 200px;
   transform-origin: left center;
   transition: transform 0.5s ease;
   position: absolute;
@@ -263,14 +261,15 @@ li {
 }
 
 .li-DGN:hover .LF {
-  transform: rotatey(-120deg);
-  -webkit-transform: rotatey(-120deg);
-  -moz-transform: rotatey(-120deg);
-  -ms-transform: rotatey(-120deg);
-  -o-transform: rotatey(-120deg);
+  transform: rotateY(-120deg);
+  -webkit-transform: rotateY(-120deg);
+  -moz-transform: rotateY(-120deg);
+  -ms-transform: rotateY(-120deg);
+  -o-transform: rotateY(-120deg);
 }
 
 .BG {
+  position: absolute;
   background: url(/images/portal.gif) no-repeat;
   background-size: 450%;
   background-position: 50% 40%;
@@ -280,4 +279,96 @@ li {
   align-items: center;
   text-align: center;
   padding-top: 2.5rem;
+}
+
+
+/*Portal/index.tsx*/
+.PRTL {
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crd-PRTL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-PRTL {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  border-radius: 50% 50% 0 0;
+  -webkit-border-radius: 50% 50% 0 0;
+  -moz-border-radius: 50% 50% 0 0;
+  -ms-border-radius: 50% 50% 0 0;
+  -o-border-radius: 50% 50% 0 0;
+  -webkit-transform: perspective(2500px);
+  -moz-transform: perspective(2500px);
+  -ms-transform: perspective(2500px);
+  -o-transform: perspective(2500px);
+}
+
+.RG {
+  background-color: #bfea88;
+  transform-origin: right center;
+  transition: transform 0.5s ease;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+
+.OV {
+  background: url(/images/gate.png) center/cover no-repeat;
+  position: absolute;
+  z-index: 6;
+}
+
+.li-PRTL:hover .OV {
+  display: none;
+}
+
+.li-PRTL:hover .LF {
+  transform: rotateY(-120deg);
+  -webkit-transform: rotateY(-120deg);
+  -moz-transform: rotateY(-120deg);
+  -ms-transform: rotateY(-120deg);
+  -o-transform: rotateY(-120deg);
+}
+
+.li-PRTL:hover .RG {
+  transform: rotateY(120deg);
+  -webkit-transform: rotateY(120deg);
+  -moz-transform: rotateY(120deg);
+  -ms-transform: rotateY(120deg);
+  -o-transform: rotateY(120deg);
+}
+
+.BG-PRTL {
+  position: absolute;
+  background: url(/images/portal.gif) no-repeat;
+  background-size: 450%;
+  background-position: 50% 40%;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.BG-PRTL a {
+  font-size: 2rem;
+  margin: 0;
 }
