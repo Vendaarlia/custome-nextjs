@@ -11,9 +11,9 @@ export default function Portal() {
                         <div className="li-PRTL LF"></div>
                         <div className="li-PRTL RG"></div>
                         <div className="li-PRTL BG-PRTL">
-                            <a href="http://">TELEGRAM</a> <br />
-                            <a href="http://">LinkedIn</a> <br />
-                            <a href="http://">EMAIL</a>
+                            <a href="https://t.me/vendaarlia999">TELEGRAM</a> <br />
+                            <a href="https://www.linkedin.com/in/vendaarlia/">LinkedIn</a> <br />
+                            <a href="mailto:vendaarlia9@gmail.com">EMAIL</a>
                         </div>
                     </div>
                 </div>
