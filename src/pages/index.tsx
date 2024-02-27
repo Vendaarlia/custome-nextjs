@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useEffect } from "react";
 
 
@@ -36,16 +37,15 @@ export default function Home() {
           </div>
       </div>
       <section className="prlxbg" >
-            <img data-speed="-10" className="layer img-1" src="img/01.png"/>
-            <img data-speed="8" className="layer img-2"  src="./img/02.png"/>
-            <img data-speed="-5" className="layer img-3"  src="./img/03.png"/>
-            <img data-speed="3" className="layer img-4"  src="./img/04.png"/>
-            <img data-speed="-7" className="layer img-5"  src="./img/05.png"/>
-            <img data-speed="6" className="layer img-6"  src="./img/06.png"/>
-            <img data-speed="-2" className="layer img-7"  src="./img/07.png"/>
-            <img data-speed="7" className="layer img-8"  src="./img/08.png"/>
-            <img data-speed="-11" className="layer img-9"  src="./img/09.png"/>
-            <img data-speed="2" className="layer img-10"  src="./img/10.png"/>
+            <Image data-speed="8" className="layer img-2" alt="home-image" src="/images/home-img/02.png" width={100} height={100} />
+            <Image data-speed="-5" className="layer img-3" alt="home-image" src="/images/home-img/03.png" width={100} height={100} />
+            <Image data-speed="3" className="layer img-4" alt="home-image" src="/images/home-img/04.png" width={100} height={100} />
+            <Image data-speed="-7" className="layer img-5" alt="home-image" src="/images/home-img/05.png" width={100} height={100} />
+            <Image data-speed="6" className="layer img-6" alt="home-image" src="/images/home-img/06.png" width={100} height={100} />
+            <Image data-speed="-2" className="layer img-7" alt="home-image" src="/images/home-img/07.png" width={100} height={100} />
+            <Image data-speed="7" className="layer img-8" alt="home-image" src="/images/home-img/08.png" width={100} height={100} />
+            <Image data-speed="-11" className="layer img-9" alt="home-image" src="/images/home-img/09.png" width={100} height={100} />
+            <Image data-speed="4" className="layer img-10" alt="home-image" src="/images/home-img/10.png" width={100} height={100} />
         </section>
     </>
   );
