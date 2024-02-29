@@ -9,7 +9,7 @@ function Navbar() {
                 <div className="brand">
                     <Link className="logo" href="/">
                         <Image className="logo-img" src="/images/logo.jpg" alt="logo" width={30} height={30} />
-                        <span>E&A</span>
+                        <span>VENDAARLIA</span>
                     </Link>
                 </div>
                 <ul>
