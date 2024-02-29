@@ -1,13 +1,13 @@
 # Portfolio Project: Next.js VENDAARLIA
 ____
 Introduction
-Vendaarlia's Everything and Anything Guild adalah sebuah proyek pembuatan website portfolio yang menawarkan pengalaman unik dalam menjelajahi dunia dungeon dan party yang dikendalikan oleh sekelompok ilmuwan maniak. Setiap halaman dalam website ini mewakili bagian dari sebuah guild yang bertujuan mengelola sebuah dungeon dan party, dengan pengguna diidentifikasi sebagai "traveler".
+Vendaarlia's Everything and Anything Guild is a portfolio website creation project that offers the unique experience of exploring a world of dungeons and parties controlled by a group of maniac scientists. Each page on this website represents part of a guild whose purpose is to manage a dungeon and party, with users identified as "travelers".
 
-Dibangun dengan menggunakan teknologi Next.js, proyek ini merupakan kolaborasi antara ilmuwan gila dengan keahlian dalam desain dan pemrograman yang ekstrem untuk mencapai hasil yang unik dan berbeda dari website-website portfolio lainnya.
+Built using Next.js technology, this project is a collaboration between mad scientists with extreme design and programming skills to achieve unique results that are different from other portfolio websites.
 
-Dalam pengalaman pengguna, setiap halaman website mewakili ruang atau bagian dari dungeon yang dikelola oleh guild. Pengguna diundang untuk menjelajahi setiap ruang dan menemukan karya-karya kreatif yang dihasilkan oleh guild tersebut. Setiap karya memiliki nuansa yang aneh dan unik, mencerminkan eksperimen desain dan pemrograman yang dilakukan oleh ilmuwan maniak.
+In the user's experience, each website page represents a room or part of a dungeon managed by a guild. Users are invited to explore each room and discover the creative works produced by the guild. Each piece has a strange and unique feel, reflecting design and programming experiments carried out by maniacal scientists.
 
-Dengan demikian, Vendaarlia's Everything and Anything Guild menawarkan pengalaman yang memikat dan menghibur bagi pengunjungnya, sambil memamerkan portofolio kreatif dari sekelompok ilmuwan gila yang berbakat dalam desain dan pemrograman.
+As such, Vendaarlia's Everything and Anything Guild offers an engaging and entertaining experience for its visitors, while showcasing the creative portfolio of a talented group of mad scientists in design and programming.
 
 ## Overview
 
