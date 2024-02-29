@@ -1,7 +1,13 @@
 # Portfolio Project: Next.js VENDAARLIA
 ____
 Introduction
-Welcome to my portfolio project! I'm a self-taught frontend developer with a background in graphic design. My educational journey in graphic design has equipped me with a deep understanding of visual attraction and best practices. Through my studies, I've honed my visual sense, perspective, and explored various visual concepts, influencing my approach to frontend development.
+Vendaarlia's Everything and Anything Guild adalah sebuah proyek pembuatan website portfolio yang menawarkan pengalaman unik dalam menjelajahi dunia dungeon dan party yang dikendalikan oleh sekelompok ilmuwan maniak. Setiap halaman dalam website ini mewakili bagian dari sebuah guild yang bertujuan mengelola sebuah dungeon dan party, dengan pengguna diidentifikasi sebagai "traveler".
+
+Dibangun dengan menggunakan teknologi Next.js, proyek ini merupakan kolaborasi antara ilmuwan gila dengan keahlian dalam desain dan pemrograman yang ekstrem untuk mencapai hasil yang unik dan berbeda dari website-website portfolio lainnya.
+
+Dalam pengalaman pengguna, setiap halaman website mewakili ruang atau bagian dari dungeon yang dikelola oleh guild. Pengguna diundang untuk menjelajahi setiap ruang dan menemukan karya-karya kreatif yang dihasilkan oleh guild tersebut. Setiap karya memiliki nuansa yang aneh dan unik, mencerminkan eksperimen desain dan pemrograman yang dilakukan oleh ilmuwan maniak.
+
+Dengan demikian, Vendaarlia's Everything and Anything Guild menawarkan pengalaman yang memikat dan menghibur bagi pengunjungnya, sambil memamerkan portofolio kreatif dari sekelompok ilmuwan gila yang berbakat dalam desain dan pemrograman.
 
 ## Overview
 
