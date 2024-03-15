@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 
 export default function Home() {
+
   useEffect(() => {
     const parallax = (e: MouseEvent) => {
       document.querySelectorAll<HTMLDivElement>('.layer').forEach((layer) => {
