@@ -1,4 +1,6 @@
 import { useEffect, useRef } from "react";
+import Image from "next/image";
+import { crypts } from '../data/crypts';
 
 export default function Dungeon() {
     const ulRef = useRef<HTMLDivElement>(null);
@@ -36,25 +38,19 @@ export default function Dungeon() {
                 <div className="wrap-DGN">
                     <div className="ul-DGN" id="ul-DGN" ref={ulRef}>
                         <div className="crd-DGN">
-                            <a href="http://">
+                            {crypts.map((crypt) => (
+                                <a href={crypt.link} key={crypt.image}>
                                 <div className="li-DGN">
-                                    <div className="li-DGN LF"></div>
+                                    <div className="li-DGN LF">
+                                        <Image className="img" src={crypt.image} alt="image" width={200} height={200} />
+                                    </div>
                                     <div className="li-DGN BG">
-                                        <h3>SMITCH <br />Penempa Warna</h3>
+                                        <h3>{crypt.title}</h3>
+                                        <p>{crypt.subtitle}</p>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-
-                        <div className="crd-DGN">
-                            <a href="http://">
-                                <div className="li-DGN">
-                                    <div className="li-DGN LF"></div>
-                                    <div className="li-DGN BG">
-                                        <h3>PORTO <br />Penjelajah Waktu</h3>
-                                    </div>
-                                </div>
-                            </a>
+                                </a>
+                            ))}
                         </div>
                     </div>
                 </div>

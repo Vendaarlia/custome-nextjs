@@ -31,7 +31,7 @@ export default function Home() {
               <h1 className="txt">
                   EVERTHING
                   <br />
-                  <span>AND <span><a href="./Dungeon" className="button">Enter the Dungeon</a></span></span>
+                  <span>AND <span><a href="./Dungeon" className="btn-glass">Enter the Dungeon</a></span></span>
                   ANYTHING
               </h1>
             </div>
