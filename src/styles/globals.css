@@ -1,3 +1,8 @@
+/* global.css */
+@import "/src/pages/Dungeon/Crypt/crypts.module.css";
+
+
+
 :root {
   --darkBlue: #1F394E;
   --black: #0a0809;
@@ -172,10 +177,6 @@ li {
 
 .logo-img {
   border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
 }
 
 /*Footer*/
@@ -224,10 +225,6 @@ li {
     top: 800px;
     left: -600px;
     transform: rotateZ(80deg);
-    -webkit-transform: rotateZ(80deg);
-    -moz-transform: rotateZ(80deg);
-    -ms-transform: rotateZ(80deg);
-    -o-transform: rotateZ(80deg);
   }
 
   100% {
@@ -403,10 +400,6 @@ li {
   border-radius: 100px 100px 0 0;
   transition: opacity 0.6s;
   opacity: 1;
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
-  -ms-transition: opacity 0.6s;
-  -o-transition: opacity 0.6s;
 }
 
 .LF {
@@ -417,18 +410,10 @@ li {
   z-index: 5;
   top: 0;
   left: 0;
-  -webkit-transition: transform 0.5s ease;
-  -moz-transition: transform 0.5s ease;
-  -ms-transition: transform 0.5s ease;
-  -o-transition: transform 0.5s ease;
 }
 
 .li-DGN:hover .LF {
   transform: rotateY(-120deg);
-  -webkit-transform: rotateY(-120deg);
-  -moz-transform: rotateY(-120deg);
-  -ms-transform: rotateY(-120deg);
-  -o-transform: rotateY(-120deg);
 }
 
 .li-DGN:hover .img {
@@ -474,26 +459,14 @@ li {
 @keyframes crd-PRTL-anim {
   0% {
     transform: scale(0.1);
-    -webkit-transform: scale(0.1);
-    -moz-transform: scale(0.1);
-    -ms-transform: scale(0.1);
-    -o-transform: scale(0.1);
   }
 
   80% {
     transform: scale(1.4);
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    -ms-transform: scale(1.4);
-    -o-transform: scale(1.4);
   }
 
   100% {
     transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
   }
 }
 
@@ -504,28 +477,16 @@ li {
   transform-style: preserve-3d;
   transform: perspective(2500px);
   border-radius: 50% 50% 0 0;
-  -webkit-border-radius: 50% 50% 0 0;
-  -moz-border-radius: 50% 50% 0 0;
-  -ms-border-radius: 50% 50% 0 0;
-  -o-border-radius: 50% 50% 0 0;
-  -webkit-transform: perspective(2500px);
-  -moz-transform: perspective(2500px);
-  -ms-transform: perspective(2500px);
-  -o-transform: perspective(2500px);
 }
 
 .RG {
-  background-color: var(--ijo);
+  background-color: var(--darkBlue);
   transform-origin: right center;
   transition: transform 0.5s ease;
   position: absolute;
   z-index: 5;
   top: 0;
   left: 0;
-  -webkit-transition: transform 0.5s ease;
-  -moz-transition: transform 0.5s ease;
-  -ms-transition: transform 0.5s ease;
-  -o-transition: transform 0.5s ease;
 }
 
 .OV {
@@ -582,9 +543,6 @@ li {
   transition: color .2s ease-in-out;
   -webkit-animation: rainbow 2s ease-in-out infinite;
   -webkit-transition: color .2s ease-in-out;
-  -moz-transition: color .2s ease-in-out;
-  -ms-transition: color .2s ease-in-out;
-  -o-transition: color .2s ease-in-out;
 }
 
 @keyframes rainbow {

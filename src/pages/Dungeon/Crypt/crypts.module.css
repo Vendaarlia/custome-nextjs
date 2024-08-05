@@ -1,0 +1,44 @@
+.wrapper img {
+    width: 100%;
+}
+
+.wrapper p {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 0 10%;
+    margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.wrapSm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapSm img, .wrapSm p {
+    width: 40vw;
+}
+
+.wrapSm p {
+    padding: 0 5%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 360px) {
+    .wrapSm {
+        flex-direction: column;
+        margin: 10% 0;
+    }
+    .wrapSm img, .wrapSm p {
+        width: 100%;
+    }
+    .wrapSm.revert {
+        flex-direction: column-reverse;
+    }
+}
