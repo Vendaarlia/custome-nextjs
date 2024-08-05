@@ -13,6 +13,13 @@ export const crypts = [
         subtitle: 'Color Crafter',
         image: '/images/home-img/03.png',
         link: './Dungeon/Crypt/SMITC'
-    }
+    },
+    {
+        id: 3,
+        title: 'SANTAMONIC',
+        subtitle: 'Branding Builder',
+        image: '/images/home-img/01.png',
+        link: './Dungeon/Crypt/SANTAMONIC'
+    },
 ]
 
