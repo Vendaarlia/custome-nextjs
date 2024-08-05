@@ -1,6 +1,7 @@
+import React from "react";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { crypts } from '../data/crypts';
+import { crypts } from '../../data/crypts';
 
 export default function Dungeon() {
     const ulRef = useRef<HTMLDivElement>(null);

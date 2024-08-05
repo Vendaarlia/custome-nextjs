@@ -1,5 +1,5 @@
 
-import { work } from '@/pages/data/work';
+import { work } from '@/data/work';
 
 export default function Laboratory() {
     return (
