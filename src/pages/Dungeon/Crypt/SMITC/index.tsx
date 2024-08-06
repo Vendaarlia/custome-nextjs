@@ -9,7 +9,7 @@ export default function Smitc() {
             <div>
                 <img src="/smitc/Frame_1.png" alt="" />
                 <img src="/smitc/Frame_2.png" alt="" />
-                <p><strong>LOGO</strong><br/>SMITC is taken from the client&apos;s name SARAH MITCHELL and a play on &apos;smith&apos; instead of forging iron. The client is a color smith not to make weapons that hurt but to convey emotion.</p>
+                <p><br/><strong>LOGO</strong><br/>SMITC is taken from the client&apos;s name SARAH MITCHELL and a play on &apos;smith&apos; instead of forging iron. The client is a color smith not to make weapons that hurt but to convey emotion.</p>
             </div>
             <div>
                 <div className={styles.wrapSm}>

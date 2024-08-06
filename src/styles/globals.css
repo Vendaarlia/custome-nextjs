@@ -274,63 +274,75 @@ li {
   position: absolute;
   top: 35%;
   right: 80%;
-  transform: translate(-50%, -50%);
+  transform: translate(-20%, 20%);
 }
 
 .img-3 {
   position: absolute;
   bottom: 65%;
   left: 20%;
-  transform: translate(-50%, -50%);
+  transform: translate(-20%, 10%);
 }
 
 .img-4 {
   position: absolute;
   top: 60%;
   right: 70%;
-  transform: translate(-50%, -50%);
+  transform: translate(10%, 30%);
 }
 
 .img-5 {
   position: absolute;
   bottom: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, 20%);
 }
 
 .img-6 {
   position: absolute;
   top: 70%;
   right: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(10%, 30%);
 }
 
 .img-7 {
   position: absolute;
   bottom: 45%;
   left: 65%;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -10%);
 }
 
 .img-8 {
   position: absolute;
   top: 65%;
   right: 20%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -10%);
+  -webkit-transform: translate(-30%, -10%);
+  -moz-transform: translate(-30%, -10%);
+  -ms-transform: translate(-30%, -10%);
+  -o-transform: translate(-30%, -10%);
 }
 
 .img-9 {
   position: absolute;
   bottom: 60%;
   left: 75%;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -10%);
+  -webkit-transform: translate(-10%, -10%);
+  -moz-transform: translate(-10%, -10%);
+  -ms-transform: translate(-10%, -10%);
+  -o-transform: translate(-10%, -10%);
 }
 
 .img-10 {
   position: absolute;
   top: 60%;
   left: 85%;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -10%);
+  -webkit-transform: translate(-10%, -10%);
+  -moz-transform: translate(-10%, -10%);
+  -ms-transform: translate(-10%, -10%);
+  -o-transform: translate(-10%, -10%);
 }
 
 /*Dungeon/index.tsx*/
